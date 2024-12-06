@@ -1,0 +1,47 @@
+* {
+    font-family: uzura_font;
+}
+
+/* Channel Panel */
+.container_ee69e0 {
+    background: #FFFFFF !important;
+}
+
+/* Current Activity Panel */
+.panel_bf1a22 {
+    background: #FFFFFF !important;
+}
+
+/* Main Chat Panel */
+.chatContent_a7d72e {
+    background: #e4ffe1 !important;
+}
+
+/* Channel Name and Pin Panel */
+.title_a7d72e {
+    background: #e4ffe1 !important;
+}
+
+.message_d5deea {
+    color: black !important;
+}
+
+/* User Name and Post Time */
+.header_f9f2ca {
+    ;
+}
+
+/* User Name */
+.username_f9f2ca {
+    color: black !important;
+}
+
+/* Post Time */
+.timestamp_f9f2ca {
+    color: black !important;
+}
+
+/* Chat */
+.messageContent_f9f2ca {
+    color: black;
+}
