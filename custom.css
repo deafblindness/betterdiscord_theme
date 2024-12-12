@@ -1,15 +1,31 @@
-* {
-    font-family: uzura_font;
+:root {
+    --font-primary: uzura_font;
+    --font-display: uzura_font;
+    --font-headline: uzura_font;
+    --font-clan-body: uzura_font;
+    --font-cla-signature: uzura_font;
+    --header-primary: black;
+    --background-tertiary: white;
+    --background-primary: #FFF0F5;
+    --background-secondary: #C0FFCB;
+    --text-normal: black;
+}
+
+/* Title Bar */
+.titleBar_a934d8 {
+    background: #FFF0F5;
 }
 
 /* Channel Panel */
 .container_ee69e0 {
-    background: #FFFFFF !important;
+    background: #FFF0F5 !important;
+    border-width: 1cm !important;
+    border-color: black !important;
 }
 
 /* Current Activity Panel */
 .panel_bf1a22 {
-    background: #FFFFFF !important;
+    background: #FFF0F5 !important;
 }
 
 /* Main Chat Panel */
@@ -44,4 +60,154 @@
 /* Chat */
 .messageContent_f9f2ca {
     color: black;
+}
+
+
+/* Form Area */
+.inner_bdf0de,
+.scrollableContainer_bdf0de {
+    background: white !important;
+    color: black !important;
+}
+
+/* Form Text */
+.editor_a552a6{
+    color: black;
+}
+
+/* Many Buttons */
+.button_dd4f85 {
+    background: white !important;
+    color: black !important;
+}
+
+/* URL Embedding */
+.grid_b0068a {
+    background: white;
+}
+
+.embedDescription_b0068a {
+    color: black !important;
+}
+
+.codeContainer_f8f345, code {
+    background: white !important;
+    border-color: white !important;
+    color: black !important;
+}
+
+/* Member List */
+.members_cbd271 {
+    background: #C0FFCB;
+}
+
+.member_a31c43 {
+    background: #C0FFCB;
+}
+
+/* Candidate Activity */
+.container_c64476 {
+    background: #A0FFAB;
+}
+
+/* Server List */
+.itemsContainer_fea3ef {
+    background: #C0FFCB;
+}
+
+/* Voice Panel */
+.container_adcaac {
+    background: #FFF0F5;
+}
+
+/* Profile Panel */
+.container_b2ca13 {
+    background: #FFF0F5 !important;
+}
+
+.title_b97bdb {
+    color: black;
+}
+
+/* Discover Button */
+.footer_d71945 {
+    display: none;
+}
+
+
+/* Unread Mention Notificator Icon*/
+.unreadMentionsIndicatorBottom_fea3ef,
+.unreadMentionsFixedFooter_fea3ef {
+    display: none;
+}
+
+/* Search Bar */
+.searchBar_a46bef {
+    background: white;
+}
+
+/* Channel Name Bar */
+.children_fc4f04:after {
+    display: none;
+}
+
+/* Voice Channel Info */
+.channelInfo_f6f816 * {
+    background: #b5bac1 !important;
+}
+
+.total_a5bc92:after {
+    display: none;
+}
+
+/* Settings Sidebar */
+.sidebar_c25c6d {
+    background: #F0FFF5;
+}
+
+/* Settings Main */
+.contentColumn_c25c6d {
+    background: #e4ffe1;
+}
+
+.accountProfileCard_b69b77 {
+    ;
+}
+
+.background_b69b77 {
+    ;
+}
+
+.usernameInnerRow_b69b77 {
+}
+
+.fieldList_b69b77 {
+}
+
+.fieldList_b69b77 * {
+}
+
+/* Over All Window */
+.bg_d4b6c5 {
+;
+}
+
+/* Video Frame */
+.videoFrame_f8a4f3 {
+    background: white;
+}
+
+/* Voice Members */
+.root_f8a4f3 {
+    background: white;
+}
+
+/* Settings SideBar left*/
+.sidebarRegionScroller_c25c6d {
+    ;
+}
+
+.contentRegionScroller_c25c6d,
+.contentRegionShownSidebar_c25c6d {
+    background: #C0FFCB;
 }
